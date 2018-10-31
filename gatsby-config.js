@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'はじめてのGraphQL',
-    description: 'GraphQLを初めて使ってみます。'
+    title: '試しの REACT SITE',
+    description: 'REACT 試してみました'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -18,6 +18,7 @@ module.exports = {
       },
     },
     'gatsby-plugin-offline',
-    'gatsby-plugin-styled-components'
+    'gatsby-plugin-styled-components',
+    'gatsby-source-hacker-news'
   ],
 }
